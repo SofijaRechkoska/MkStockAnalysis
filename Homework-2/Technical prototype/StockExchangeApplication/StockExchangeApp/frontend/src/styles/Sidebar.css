@@ -1,0 +1,55 @@
+/* src/styles/Sidebar.css */
+
+/* Basic styles for the sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #040b3f; /* Dark background for sidebar */
+    color: white;
+    height: 100vh;
+    position: fixed; /* Fixes sidebar to the left of the screen */
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Style the header text inside the sidebar */
+.sidebar h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/* Style for the list inside the sidebar */
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Style for each list item */
+.sidebar ul li {
+    margin-bottom: 20px;
+}
+
+/* Style for the links */
+.sidebar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* Change link color on hover */
+.sidebar ul li a:hover {
+    background-color: #7357f3;
+    color: white;
+}
+
+.sidebar ul li a:active {
+    background-color: #0056b3;
+}
