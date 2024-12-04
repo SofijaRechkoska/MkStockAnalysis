@@ -1,0 +1,42 @@
+.favoritesBody{
+    background-color: #040b3f;
+}
+.favoriteItem{
+    background-color: #3a30b8;
+    width: 200px;
+    margin-right: 50px;
+    padding-left: 50px;
+    display: inline;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 250px;
+    border-radius: 10px;
+
+}
+.sectionFavorites{
+    margin-top: 150px;
+    margin-left: 80px;
+    justify-content: space-between;
+}
+.symbol{
+    display: inline;
+}
+.favoritesSectionAvg{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -250px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.percent1 {
+    margin-left: 5px;
+}
+
+.positive {
+    color: #00fa00;
+}
+
+.negative {
+    color: red;
+}
