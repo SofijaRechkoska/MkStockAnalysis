@@ -31,8 +31,6 @@ public class StockData {
     public StockData() {
 
     }
-
-
     public StockDataId getId() {
         return id;
     }
