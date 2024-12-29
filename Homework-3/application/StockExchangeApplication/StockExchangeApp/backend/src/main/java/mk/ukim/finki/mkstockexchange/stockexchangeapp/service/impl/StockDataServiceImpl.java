@@ -16,10 +16,4 @@ public class StockDataServiceImpl {
         this.repository = repository;
     }
 
-    public List<StockData> getAllStocks(){
-        return repository.findAll();
-    }
-    public List<StockData> getStockByCode(String code){
-        return repository.findById_Code(code);
-    }
 }

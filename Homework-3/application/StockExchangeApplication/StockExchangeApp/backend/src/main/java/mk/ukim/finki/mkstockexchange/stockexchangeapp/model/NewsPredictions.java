@@ -39,14 +39,6 @@ public class NewsPredictions {
         this.id = id;
     }
 
-    public String getCompany_name() {
-        return companyName;
-    }
-
-    public void setCompany_name(String company_name) {
-        this.companyName = company_name;
-    }
-
     public String getContent() {
         return content;
     }

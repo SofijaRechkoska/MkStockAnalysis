@@ -61,11 +61,4 @@ public class StockData {
         return volume;
     }
 
-    public String getTurnoverBest() {
-        return turnoverBest;
-    }
-
-    public String getTotalTurnover() {
-        return totalTurnover;
-    }
 }

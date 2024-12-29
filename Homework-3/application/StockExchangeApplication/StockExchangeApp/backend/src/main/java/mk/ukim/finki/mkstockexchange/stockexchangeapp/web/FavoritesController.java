@@ -21,15 +21,11 @@ import java.util.stream.Collectors;
 public class FavoritesController {
 
     private FavoritesRepository favoritesRepository;
-    private FavoritesService favoritesService;
-    private UserService userService;
     private HttpSession session;
 
 
     public FavoritesController(FavoritesRepository favoritesRepository, FavoritesService favoritesService, UserService userService, HttpSession session) {
         this.favoritesRepository = favoritesRepository;
-        this.favoritesService = favoritesService;
-        this.userService = userService;
         this.session = session;
     }
 

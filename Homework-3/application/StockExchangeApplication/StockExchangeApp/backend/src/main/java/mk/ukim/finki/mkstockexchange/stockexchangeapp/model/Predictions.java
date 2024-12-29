@@ -86,54 +86,6 @@ public class Predictions {
         this.signal = signal;
     }
 
-    public Double getLast_trade_price() {
-        return last_trade_price;
-    }
-
-    public void setLast_trade_price(Double last_trade_price) {
-        this.last_trade_price = last_trade_price;
-    }
-
-    public Double getSma_20() {
-        return sma_20;
-    }
-
-    public void setSma_20(Double sma_20) {
-        this.sma_20 = sma_20;
-    }
-
-    public Double getSma_50() {
-        return sma_50;
-    }
-
-    public void setSma_50(Double sma_50) {
-        this.sma_50 = sma_50;
-    }
-
-    public Double getEma_12() {
-        return ema_12;
-    }
-
-    public void setEma_12(Double ema_12) {
-        this.ema_12 = ema_12;
-    }
-
-    public Double getEma_26() {
-        return ema_26;
-    }
-
-    public void setEma_26(Double ema_26) {
-        this.ema_26 = ema_26;
-    }
-
-    public Double getRsi() {
-        return rsi;
-    }
-
-    public void setRsi(Double rsi) {
-        this.rsi = rsi;
-    }
-
     public Double getMacd() {
         return macd;
     }
@@ -142,21 +94,7 @@ public class Predictions {
         this.macd = macd;
     }
 
-    public Double getStochastic() {
-        return stochastic;
-    }
 
-    public void setStochastic(Double stochastic) {
-        this.stochastic = stochastic;
-    }
-
-    public Double getVwma() {
-        return vwma;
-    }
-
-    public void setVwma(Double vwma) {
-        this.vwma = vwma;
-    }
 }
 
 
