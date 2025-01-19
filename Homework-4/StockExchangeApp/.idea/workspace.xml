@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="StockExchangeApp:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ab60bce-3421-475b-8ca7-5e4add2b0d4a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Dimitarbalo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SofijaRechkoska/MkStockAnalysis.git&quot;,
+    &quot;accountId&quot;: &quot;526cf3ce-1e50-4aad-844a-3b2fd0b0a4ca&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2rfrpcP0H1ZWZ0XKfnwaV8OMrOk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JAR Application.StockExchangeApp.jar.executor": "Run",
+    "Maven.StockExchangeApp [install].executor": "Run",
+    "Maven.StockExchangeApp [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.StockExchangeAppApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/W11/Desktop/Homework-4/StockExchangeApp/backend/target",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "build.tools",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\W11\Desktop\d\Homework-3\application\StockExchangeApplication\StockExchangeApp\backend\src\main\resources" />
+      <recent name="C:\Users\W11\Desktop\d\Homework-3\application\StockExchangeApplication\StockExchangeApp\backend\src\main\resources\static\build\static" />
+      <recent name="C:\Users\W11\Desktop\d\Homework-3\application\StockExchangeApplication\StockExchangeApp\backend" />
+      <recent name="C:\Users\W11\Desktop\d\Homework-3\application\StockExchangeApplication\StockExchangeApp\backend\src\main\resources\static" />
+      <recent name="C:\Users\W11\Desktop\d\Homework-3\application\StockExchangeApplication\StockExchangeApp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\W11\Desktop\d\Homework-3\application\StockExchangeApplication\StockExchangeApp\backend" />
+      <recent name="C:\Users\W11\Desktop\d\Homework-3\application\StockExchangeApplication\StockExchangeApp\backend\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.StockExchangeAppApplication">
+    <configuration name="StockExchangeApp.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/backend/target/StockExchangeApp.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="StockExchangeAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="StockExchangeApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mk.ukim.finki.mkstockexchange.stockexchangeapp.StockExchangeAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.StockExchangeApp.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19416.15" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19416.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ab60bce-3421-475b-8ca7-5e4add2b0d4a" name="Changes" comment="" />
+      <created>1736961154168</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736961154168</updated>
+      <workItem from="1736961155417" duration="4863000" />
+      <workItem from="1736970577364" duration="25000" />
+      <workItem from="1737126712105" duration="3629000" />
+      <workItem from="1737147720786" duration="7309000" />
+      <workItem from="1737156058082" duration="9480000" />
+      <workItem from="1737221036771" duration="8965000" />
+      <workItem from="1737231119035" duration="259000" />
+      <workItem from="1737231498124" duration="3485000" />
+      <workItem from="1737235285964" duration="7608000" />
+      <workItem from="1737245212117" duration="11840000" />
+      <workItem from="1737287162276" duration="29101000" />
+      <workItem from="1737318416694" duration="3785000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,56 @@
+version: '3.8'
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://stockexchange-db:5432/stock-market
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=Dimitar@123
+      - PYTHON_SCRIPT_PATH=/app/scripts/python/demo/Filter3.py
+    depends_on:
+      - stockexchange-db
+      - python-service
+    networks:
+      - stockexchange-network
+
+  python-service:
+    build:
+      context: ../microservices/technical_analysis
+    ports:
+      - "5003:5003"
+    environment:
+      - FLASK_APP=technical_analysis.py
+      - FLASK_RUN_HOST=0.0.0.0
+    command: [ "flask", "run", "--host=0.0.0.0", "--port=5003" ]
+    networks:
+      - stockexchange-network
+
+  stockexchange-db:
+    image: postgres:14
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: stock-market
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Dimitar@123
+    networks:
+      - stockexchange-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - stockexchange-network
+
+networks:
+  stockexchange-network:
+    driver: bridge
